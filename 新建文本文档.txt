@@ -1,0 +1,13 @@
+2048逻辑：
+
+1.先用HTML写出最基本的标题和按钮和格子等等。
+2.用CSS外部样式表写出各个部分的样式。
+3.声明出数组升级二维。
+4.设置newgame函数，其中包括初始化棋盘格和生成随机数两部分，设置init函数初始棋盘格，generateonenumber函数生成数。
+5.设置updateboardview函数（numbercell有无值，情况各怎样，有值考虑背景色，再设置函数），根据board的值对前端的number-cell的值进行操作。
+6.设置函数generateonenumber,用nospace函数来判定有无空间，考虑没有空间的时候，此函数应是false的，再写出true的情况。
+7.利用jQuery内置方法配合switch case来设置用户按键反应内容。
+8.设置函数moveleft，同时也应该像第六点一样考虑不能左移此函数应该是false的。
+9.依次写出moveright，up,down等。
+10.jQuery内置函数，配置动画。
+11.完善gameover细节和分数叠加。
